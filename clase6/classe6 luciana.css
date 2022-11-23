@@ -1,0 +1,43 @@
+body {
+    background-color: purple;
+}
+
+h1 {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+
+p{
+    background-color: white;
+    color: black;
+    display: inline;
+}
+/* Selector de etiqueta p con id parrafo1
+    Selector Specificity: (1, 0, 1) */
+p#parrafo1 {
+    color: tomato;
+    background-color: yellow;
+}
+
+/* Selector de clase
+    Selector Specificity: (0, 1, 0) */
+.parrafo2 {
+    color: aqua;
+    background-color: blueviolet;
+}
+/* Selector de etiqueta con clase
+    Selector Specificity: (0, 1, 1) */
+p.parrafo2 {
+    color: chartreuse;
+    background-color: aquamarine;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+section.contenedorImagen{
+    background-color: yellow;
+}

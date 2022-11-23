@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: rgb(10, 9, 9);
+    color: #0000;
+    color: #000000;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#div-cuadrado {
+    width: 500px;
+    height: 500px;
+    /* background: red url(https://img.planetafobal.com/2020/08/adidas-2020-2021-japan-away-kit-ds-350x250.jpg) no-repeat fixed center;*/
+    background-color: red;
+    background-image: url(https://img.planetafobal.com/2020/08/adidas-2020-2021-japan-away-kit-ds-350x250.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+i{
+    color: red;
+    font-size: 500px;
+}
