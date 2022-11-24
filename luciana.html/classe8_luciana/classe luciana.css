@@ -1,0 +1,27 @@
+/*esstilo general */
+body{
+    background-color: white;
+}
+
+img{
+    /*tamaño img*/
+    
+    display: block;
+    margin: auto;
+}
+h2{
+    font-size: 30px ;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+div.div_color{
+   background-color: red;
+}
+h4{
+    font-size: 30px ;
+    color: white;
+    background-color: red;
+}
+
