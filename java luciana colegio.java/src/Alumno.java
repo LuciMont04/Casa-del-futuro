@@ -4,9 +4,13 @@ public class Alumno {
     private String apellido;
     private List<Integer> notas = new ArrayList<>();
 
-    public Alumno(String nombre, String apellido, List<Integer> notas) {
+    public Alumno(String nombre, String apellido){
         this.nombre = nombre;
         this.apellido = apellido;
+
+    }
+
+    public Alumno(List<Integer> notas) {
         this.notas = notas;
     }
 
@@ -53,12 +57,16 @@ public class Alumno {
 
     // calcularPromedio()
     public void calcularPromedio() {
-
+        Integer sumaNotas = 0;
+        for (int i = 0; i < notas.size(); i++) {
+            sumaNotas += notas.get(i);
+        }
+        System.out.println(sumaNotas/notas.size());
     }
 
     // recibirNota()
-    public void recibirNota(Integer notas) {
-
+    public void recibirNota(Integer nota) {
+        System.out.println(notas.add(nota));
     }
 
     // listarNotas()

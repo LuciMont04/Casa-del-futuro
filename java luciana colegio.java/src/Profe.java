@@ -8,9 +8,13 @@ public class Profe {
     public Profe() {
     }
 
-    public Profe(String nombre, String apellido, List<Alumno> alumnos) {
+    public Profe(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
+
+    }
+
+    public Profe(List<Alumno> alumnos) {
         this.alumnos = alumnos;
     }
     //getters y setters
@@ -42,11 +46,12 @@ public class Profe {
     //METODOS
     // aniadirAlumno()
     public void aniadirAlumno(Alumno alumno){
-        alumnos.add(alumno);
+        System.out.println(alumnos.add(alumno));
+
     }
     // eliminarAlumno(){
     public void eliminarAlumno( int id ){
-        for (int i = 0; i  > alumnos.size(); i++){
+        for (int i = 0; i  < alumnos.size(); i--){
             if (i == id){
                 alumnos.remove(id);
                 System.out.println("Se removió el alumno con exito");
